@@ -1,0 +1,153 @@
+name: chatty
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # GetX
+  get: ^4.6.5
+
+  # date
+  intl: ^0.18.1
+
+  # device ui resizing
+  flutter_screenutil: ^5.8.4
+
+  # pull to refresh
+  pull_to_refresh: ^2.0.0
+
+  # toast
+  fluttertoast: ^8.2.2
+
+  # easyloading
+  flutter_easyloading: ^3.0.5
+
+  # http
+  dio: ^4.0.4
+  dio_cookie_manager: ^2.0.0
+  cookie_jar: ^3.0.1
+
+  # local storage
+  shared_preferences: ^2.2.0
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.1
+
+  # encrypting SHA
+  crypto: ^3.0.3
+
+  # webView
+  webview_flutter: ^4.2.2
+
+  # loading
+  loading_animations: ^2.2.0
+
+  # share
+  share: ^2.0.4
+
+  # device info
+  device_info: ^2.0.3
+
+  # package info
+  package_info: ^2.0.2
+
+  #path
+  path_provider: ^2.1.0
+
+  # permission
+  permission_handler: ^10.4.3
+
+  # about errors
+  sentry: ^7.9.0
+
+  # get data about device
+  uni_links: ^0.5.1
+
+  #animation library
+  flutter_spinkit: ^5.2.0
+
+  dots_indicator: ^3.0.0
+
+  google_sign_in: ^6.1.4
+
+  firebase_core: ^2.15.1
+
+  firebase_messaging: ^14.6.6
+
+  firebase_in_app_messaging: ^0.7.3+5
+
+  firebase_auth: ^4.7.3
+
+  cloud_firestore: ^4.8.5
+
+  firebase_storage: ^11.2.6
+
+  location: ^5.0.3
+
+  image_picker: ^1.0.2
+
+  photo_view: ^0.14.0
+
+  sqflite: ^2.3.0
+
+  flutter_verification_code: ^1.1.6
+
+  agora_rtc_engine: ^6.2.2
+
+  just_audio: ^0.9.34
+
+  flutter_local_notifications: ^15.1.0+1
+
+  url_launcher: ^6.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/Sound_Horizon.mp3
+    - assets/audio_mixing/Agora.io-Interactions.mp3
+    - assets/agora-logo.png
+    - assets/dang.mp3
+    - assets/ding.mp3
+    - assets/gif.gif
+    - assets/jpg.jpg
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Book.ttf
+          weight: 400 # normal
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+    - family: Iconfont
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
+
